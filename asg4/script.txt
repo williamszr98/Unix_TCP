@@ -1,0 +1,6 @@
+#!/bin/sh
+
+date
+ls /etc | wc
+ls /etc | head 
+end
