@@ -1,0 +1,4 @@
+!#/bin/sh
+
+g++ Client.c -o Client
+./Client 127.0.0.1 12121

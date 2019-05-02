@@ -70,7 +70,7 @@ int main (int argc, char **argv)
      	send(connfd, buf, n, 0);
      }
      if (n < 0)
-      	printf("%s\n", "Read error");
+      	printf("%s\n", "Disconnected");
      exit(0);
   }
   //close socket of the server
